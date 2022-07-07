@@ -11,8 +11,11 @@ Progetto realizzato da:
 2) Ricerca automatica >>
 3) Ricerca automatica <<
 4) Stampa dati Stazione Radio (poi premi x per fermare)
+
 +) Volume +
+
 -) Volume -
+
 5) Ricerca manuale >>
 6) Ricerca manuale <<
 
