@@ -7,17 +7,14 @@ Progetto realizzato da:
 
 ## Quali comandi sono abilitati?
 
-1) Muto On/Off
-2) Ricerca automatica >>
-3) Ricerca automatica <<
-4) Stampa dati Stazione Radio (poi premi x per fermare)
-
-+) Volume +
-
--) Volume -
-
-5) Ricerca manuale >>
-6) Ricerca manuale <<
+* Muto On/Off
+* Ricerca automatica >>
+* Ricerca automatica <<
+* Stampa dati Stazione Radio (poi premi x per fermare)
+* Volume +
+* Volume -
+* Ricerca manuale >>
+* Ricerca manuale <<
 
 ## Schema 
 
