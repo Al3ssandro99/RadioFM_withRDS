@@ -1,7 +1,7 @@
 # Radio FM con ARDUINO 
 
 Progetto realizzato da:
-* ALessandro Papeo
+* Alessandro Papeo
 * Paolodamiano Manzoni
 * Ignazio Massaro
 
