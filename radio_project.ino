@@ -92,7 +92,7 @@ void setup() {
 
 void loop() {
   char option;
-  int currentChannel = 1025; //Default the unit to a known good local radio station
+  int currentChannel = 1027; //Default the unit to a known good local radio station
 
   gotoChannel(currentChannel);
 
@@ -114,7 +114,7 @@ void loop() {
     option = Serial.read();
 
     if(option == '1') {
-      Serial.println("flag muto");
+      //Serial.println("flag muto");
       si4703_readRegisters();
       si4703_registers[POWERCFG] ^= (1<<DMUTE); //Toggle Mute bit
       si4703_updateRegisters();
@@ -244,7 +244,7 @@ if (isValidRdsData()){
       strcpy(buf,first);
       strcat(buf,second);
       
-      Serial.println(buf);
+      //Serial.println(buf);
       
       clearLCD(2);
       printLCD(buf, 0);
@@ -288,7 +288,8 @@ if (isValidRdsData()){
       strcpy(buf,first);
       strcat(buf,second);
       
-      Serial.println(buf);
+      
+      //Serial.println(buf);
       
       clearLCD(2);
       printLCD(buf, 0);
@@ -300,7 +301,7 @@ if (isValidRdsData()){
 #ifdef IN_EUROPE
       currentChannel += 1; //Increase channel by 100kHz
 #else
-      currentChannel += 1; //Increase channel by 200kHz
+      currentChannel += 2; //Increase channel by 200kHz
 #endif
       if (currentChannel>1080){
         currentChannel = 875;
@@ -312,7 +313,7 @@ if (isValidRdsData()){
 #ifdef IN_EUROPE
       currentChannel -= 1; //Decreage channel by 100kHz
 #else
-      currentChannel -= 1; //Decrease channel by 200kHz
+      currentChannel -= 2; //Decrease channel by 200kHz
 #endif
       if (currentChannel<875){
               currentChannel = 1080;
