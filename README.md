@@ -10,7 +10,7 @@ Progetto realizzato da:
 * Muto On/Off
 * Ricerca automatica >>
 * Ricerca automatica <<
-* Stampa dati Stazione Radio (poi premi x per fermare)
+* Stampa dati Stazione Radio: RDS e RT (poi premi x per fermare)
 * Volume +
 * Volume -
 * Ricerca manuale >>
